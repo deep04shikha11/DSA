@@ -21,7 +21,7 @@ class Solution:
                 return 1
         for i in range(len(A)):
             A[i] = (A[i],count_factors(A[i]))
-        print(A)
+        # print(A)
         A = sorted(A, key=cmp_to_key(comparator))
         A = [i[0] for i in A]
         return A
