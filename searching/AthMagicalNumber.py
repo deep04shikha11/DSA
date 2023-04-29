@@ -8,7 +8,7 @@ class solution:
         while(s<=e):
             mid = (s+e)//2
             idx = int(mid//B + mid//C - mid//lcm)
-            print('idx=',idx, ' A=',A, ' S=',s, ' E=',e, ' mid=',mid, ' lcm=',lcm)
+            # print('idx=',idx, ' A=',A, ' S=',s, ' E=',e, ' mid=',mid, ' lcm=',lcm)
             if(idx>=A):
                 result = mid
                 e = mid-1
