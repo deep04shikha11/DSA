@@ -2,7 +2,7 @@ class solution:
     def solve(self,A,B):
         n = len(A)
         m = len(A[0])
-        ans = -1
+        ans = 0
         for i in range(n):
             l = 0
             h = m-1
@@ -18,7 +18,7 @@ class solution:
         return ans
         
 
-A = [[1,   3,  5,  7],[10, 11, 16, 20],[23, 30, 34, 50]]
-B = 0
+A = [[3],[29],[36],[63],[67],[72],[74],[78],[85]]
+B = 41
 obj = solution()
 print(obj.solve(A,B))
