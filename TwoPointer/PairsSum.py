@@ -1,3 +1,4 @@
+# two pointer technique to find pairs of integers in a list whose sum is equal to a given value
 class PairOfSum:
     def solve(self,A,B):
         n = len(A)
@@ -13,8 +14,6 @@ class PairOfSum:
                 p2 -= 1
             else:
                 if A[p1] == A[p2]:
-                    # this is a scenario when we encounter duplicates
-                    # thus, there are no other elements between p1 and p2 now
                     x = p2 - p1 + 1
                     ans += ((x * (x - 1)) // 2) % mod  # xC2
                     break
