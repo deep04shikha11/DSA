@@ -4,7 +4,7 @@ class Solution:
         n = len(A)
         bestDist = float('inf')
         bestSum  = 0
-        print(A)
+        # print(A)
         for i in range(n):
             j = i+1
             k = n-1
