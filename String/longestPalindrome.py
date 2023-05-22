@@ -15,6 +15,6 @@ class solution:
 
 
 
-A = "aaaabaaa"
+A = "abbcccbbbcaaccbababcbcabca"
 obj = solution()
 print(obj.longestPalindrome(A))
