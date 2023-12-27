@@ -30,6 +30,6 @@ class solution:
                 if A[mid]>A[mid+1]:
                     h = mid-1
 
-A = [1, 1000000000, 1000000000]
+A = [1, 50, 700, 90]
 obj = solution()
 print(obj.solve(A))
