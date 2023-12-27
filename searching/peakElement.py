@@ -1,3 +1,7 @@
+# Given an array of integers A, find and return the peak element in it.
+# An array element is considered a peak if it is not smaller than its neighbors. 
+# For corner elements, we need to consider only one neighbor.
+
 class solution:
     def solve(self,A):
         n = len(A)
