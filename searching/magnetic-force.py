@@ -27,7 +27,7 @@ class solution:
                 h = mid-1
         return l
 
-# largest minimum distance
+# largest minimum distance - Magnetic Force Between Two Balls
 A = [1, 2, 3, 4, 5]
 B = 3
 obj = solution()
