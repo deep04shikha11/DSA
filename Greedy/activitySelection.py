@@ -12,8 +12,11 @@ class Solution:
         task = []
         for i in range(len(A)):
             task.append((A[i],B[i]))
-            
+        print('before sort task=')
+        print(task) 
         task = sorted(task,key=itemgetter(1))
+        print('after sort task=')
+        print(task) 
         ans = 1
         curef = task[0] # current reference
         for i in range(1,len(A)):
@@ -22,7 +25,7 @@ class Solution:
                 curef = task[i]
         return ans
 
-A = [5, 1, 3, 0, 5, 8]
-B = [9, 2, 4, 6, 7, 9]
+A = [5, 1, 3, 0, 5, 8] #start time
+B = [9, 2, 4, 6, 7, 9] #end time
 obj = Solution()
 print(obj.Greedy(A,B))
